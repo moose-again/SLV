@@ -1,21 +1,7 @@
 const logoData = [
-
-/*Template:
-
-        name:"",
-        group:"",
-        sport:"",
-        tags: [],
-        vectorFile: "",
-        png500: "",
-        png1000: "",
-        colors: [],
-        colorsUsed: [],
-        year: "",
-
-*/
-        
+    
     //NFL
+    
     {
         name:"Arizona Cardinals",
         group:"NFL",
@@ -27,6 +13,10 @@ const logoData = [
         colors: ["#97233f", "#ffffff"],
         colorsUsed: ["#97233f", "#ffb612", "#000000", "#ffffff"],
         year: "2005",
+        alternatives:[],
+        pastLogos:[],
+        wordmark:,
+        
         
         
     },
@@ -243,12 +233,52 @@ const logoData = [
         group:"NFL",
         sport:"Football",
         tags: ["animals","horn"],
-        vectorFile: "logos/NFL/vector/LAC.svg",
-        png500: "logos/NFL/png/500/LAC.png",
-        png1000: "logos/NFL/png/1000/LAC.png",
+        vectorFile: "logos/NFL/vector/LAR.svg",
+        png500: "logos/NFL/png/500/LAR.png",
+        png1000: "logos/NFL/png/1000/LAR.png",
         colors: ["#002244", "#ffffff", "#b3995d"],
         colorsUsed: ["#002244", "#ffffff"],
         year: "2017",
         
     },
+    {
+        name:"Miami Dolphins",
+        group:"NFL",
+        sport:"Football",
+        tags: ["animals","fish","sun"],
+        vectorFile: "logos/NFL/vector/MIA.svg",
+        png500: "logos/NFL/png/500/MIA.png",
+        png1000: "logos/NFL/png/1000/MIA.png",
+        colors: ["#008e97", "#ffffff", "#f26a24"],
+        colorsUsed: ["#008e97", "#ffffff", "#005778", "#f26a24"],
+        year: "2018",
+        
+    },
+    {
+        name:"Minnesota Vikings",
+        group:"NFL",
+        sport:"Football",
+        tags: ["man","beard","blonde","purple"],
+        vectorFile: "logos/NFL/vector/MIN.svg",
+        png500: "logos/NFL/png/500/MIN.png",
+        png1000: "logos/NFL/png/1000/MIN.png",
+        colors: ["#4f2683", "#ffffff", "#ffc62f"],
+        colorsUsed: ["#4f2683", "#ffffff", "#ffc62f", "#000000", "#e9bf9b"],
+        year: "2013",
+        
+    },
+    {
+        name:"New England Patriots",
+        group:"NFL",
+        sport:"Football",
+        tags: ["man","blue","star","wave"],
+        vectorFile: "logos/NFL/vector/NE.svg",
+        png500: "logos/NFL/png/500/NE.png",
+        png1000: "logos/NFL/png/1000/NE.png",
+        colors: ["#002244", "#ffffff", "#b0b7bc", "#c60c30"],
+        colorsUsed: ["#002244", "#ffffff", "#b0b7bc", "#c60c30"],
+        year: "2000",
+        
+    },
+    
 ]
