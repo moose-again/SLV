@@ -14,9 +14,7 @@ const logoData = [
         colors: ["#97233f", "#ffffff"],
         colorsUsed: ["#97233f", "#ffb612", "#000000", "#ffffff"],
         year: "2005",
-        alternatives:[],
-        pastLogos:[],
-        wordmark:,
+    
         
         
         
@@ -456,4 +454,10 @@ const logoData = [
         
     },
     
-]
+];
+
+
+document.getElementById("library").innerHTML = `<h1>SLV Currently has ${logoData.length} logos</h1>
+${logoData.map(function(logo) {
+    return logo.name
+}).join('')}`
