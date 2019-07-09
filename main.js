@@ -280,5 +280,18 @@ const logoData = [
         year: "2000",
         
     },
+    {
+        name:"New Orleans Saints",
+        group:"NFL",
+        sport:"Football",
+        tags: ["fleur-de-lis","fleur-de-lys","gold"],
+        vectorFile: "logos/NFL/vector/NO.svg",
+        png500: "logos/NFL/png/500/NO.png",
+        png1000: "logos/NFL/png/1000/NO.png",
+        colors: ["#d3bc8d", "#ffffff", "#000000"],
+        colorsUsed: ["#d3bc8d", "#ffffff", "#000000"],
+        year: "2012",
+        
+    },
     
 ]
