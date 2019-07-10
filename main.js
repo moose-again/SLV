@@ -457,14 +457,52 @@ const logoData = [
 ];
 
 
-document.getElementById("library").innerHTML = `<h1>SLV Currently has ${logoData.length} logos</h1>
-${logoData.map(function(logo) {
+function tags(tags) {
     return `
+
+${tags.map(function(showTag) {
+        return `
+<div class="badge badge-secondary">${showTag}</div>
+`
+    }).join('')}
+`
+    
+}
+
+function logoTemplate(logo) {
+    return `
+<div class="p-3" style="display: inline-block;">
 <div class="card" style="width: 18rem;">
-  <img src="${logo.png500}" class="card-img-top">
+
+  <div style="
+background-image: url(${logo.png500}); 
+width: 246px; 
+height: 246px;
+background-repeat: no-repeat;
+background-size: 246px 246px;
+" class="card-img-top">
+</div>
+
   <div class="card-body">
+
     <h5 class="card-title">${logo.name}</h5>
+
   </div>
+
+  <div class="card-footer">
+
+    ${logo.tags ? tags(logo.tags) : ''}
+
+  </div>
+
+</div>
+</div>
+
+`
+}
+
+document.getElementById("library").innerHTML = `<h1>SLV Currently has ${logoData.length} logos</h1>
+<div class="container">
+${logoData.map(logoTemplate).join('')}
 </div>
 `
-}).join('')}`
