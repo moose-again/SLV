@@ -275,7 +275,7 @@ const logoData = [
         name:"Minnesota Vikings",
         group:"NFL",
         sport:"Football",
-        tags: ["man","beard","blonde","purple"],
+        tags: ["man","mustache","blonde","purple"],
         hasVector: true,
         vectorFile: "logos/NFL/vector/MIN.svg",
         png500: "logos/NFL/png/500/MIN.png",
