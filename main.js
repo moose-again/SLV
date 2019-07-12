@@ -13,7 +13,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/ARI.png",
         colors: ["#97233f", "#ffffff"],
         colorsUsed: ["#97233f", "#ffb612", "#000000", "#ffffff"],
-        year: "2005"
+        year: "2005",
+        abrv: "ARI"
     
         
         
@@ -30,7 +31,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/ATL.png",
         colors: ["#a71930", "#ffffff", "#a5acaf", "#000000"],
         colorsUsed: ["#a71930", "#ffffff", "#a5acaf", "#000000"],
-        year: "2003"
+        year: "2003",
+        abrv: "ATL"
         
     },
     {
@@ -44,7 +46,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/BAL.png",
         colors: ["#241773", "#9e7c0c", "#000000"],
         colorsUsed: ["#241773", "#9e7c0c", "#000000", "#ffffff", "#c60c30"],
-        year: "1999"
+        year: "1999",
+        abrv: "BAL"
         
     },
     {
@@ -58,7 +61,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/BUF.png",
         colors: ["#00338d", "#c60c30", "#ffffff", "#00274d"],
         colorsUsed: ["#00338d", "#c60c30", "#ffffff"],
-        year: "1974"
+        year: "1974",
+        abrv: "BUF"
         
     },
     {
@@ -72,7 +76,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/CAR.png",
         colors: ["#000000", "#0085ca", "#bfc0bf"],
         colorsUsed: ["#000000", "#0085ca", "#bfc0bf"],
-        year: "2012"
+        year: "2012",
+        abrv: "CAR"
         
     },
     {
@@ -86,7 +91,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/CHI.png",
         colors: ["#c83804", "#0b162a", "#ffffff"],
         colorsUsed: ["#c83804", "#0b162a", "#ffffff"],
-        year: "1974"
+        year: "1974",
+        abrv: "CHI"
         
     },
     {
@@ -100,7 +106,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/CIN.png",
         colors: ["#fb4f14", "#000000", "#ffffff"],
         colorsUsed: ["#fb4f14", "#000000", "#ffffff"],
-        year: "2005"
+        year: "2005",
+        abrv: "CIN"
         
     },
     {
@@ -114,7 +121,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/CLE.png",
         colors: ["#ff3c00", "#311d00", "#ffffff"],
         colorsUsed: ["#ff3c00", "#311d00", "#ffffff"],
-        year: "2015"
+        year: "2015",
+        abrv: "CLE"
         
     },
     {
@@ -128,7 +136,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/DAL.png",
         colors: ["#002244", "#ffffff", "#00338d", "#b0b7bc"],
         colorsUsed: ["#002244", "#ffffff"],
-        year: "1964"
+        year: "1964",
+        abrv: "DAL"
         
     },
     {
@@ -142,7 +151,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/DEN.png",
         colors: ["#002244", "#fb4f14", "#ffffff"],
         colorsUsed: ["#002244", "#fb4f14", "#ffffff"],
-        year: "1997"
+        year: "1997",
+        abrv: "DEN"
         
     },
     {
@@ -156,7 +166,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/DET.png",
         colors: ["#0076b6", "#b0b7bc"],
         colorsUsed: ["#0076b6", "#ffffff", "#b0b7bc"],
-        year: "2017"
+        year: "2017",
+        abrv: "DET"
         
     },
     {
@@ -170,7 +181,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/GB.png",
         colors: ["#203731", "#ffb612", "#ffffff"],
         colorsUsed: ["#203731", "#ffb612", "#ffffff"],
-        year: "1980"
+        year: "1980",
+        abrv: "GB"
         
     },
     {
@@ -184,7 +196,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/HOU.png",
         colors: ["#04202f", "#a71930", "#ffffff"],
         colorsUsed: ["#04202f", "#a71930", "#ffffff"],
-        year: "2002"
+        year: "2002",
+        abrv: "HOU"
         
     },
      {
@@ -198,7 +211,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/IND.png",
         colors: ["#002c5f", "#ffffff"],
         colorsUsed: ["#002c5f", "#ffffff"],
-        year: "2002"
+        year: "2002",
+        abrv: "IND"
         
     },
     {
@@ -212,7 +226,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/JAX.png",
         colors: ["#006778", "#000000", "#9f792c"],
         colorsUsed: ["#006778", "#000000", "#9f792c", "#d7a22a", "#ffffff"],
-        year: "2013"
+        year: "2013",
+        abrv: "JAX"
         
     },
     {
@@ -226,7 +241,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/KC.png",
         colors: ["#e31837", "#ffffff", "#ffb612"],
         colorsUsed: ["#e31837", "#ffffff", "#000000"],
-        year: "1972"
+        year: "1972",
+        abrv: "KC"
         
     },
     {
@@ -240,7 +256,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/LAC.png",
         colors: ["#002a5e", "#ffffff", "#0080c6"],
         colorsUsed: ["#002a5e", "#ffffff", "#0080c6", "#ffc20e"],
-        year: "2017"
+        year: "2017",
+        abrv: "LAC"
         
     },
     {
@@ -254,7 +271,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/LAR.png",
         colors: ["#002244", "#ffffff", "#b3995d"],
         colorsUsed: ["#002244", "#ffffff"],
-        year: "2017"
+        year: "2017",
+        abrv: "LAR"
         
     },
     {
@@ -268,7 +286,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/MIA.png",
         colors: ["#008e97", "#ffffff", "#f26a24"],
         colorsUsed: ["#008e97", "#ffffff", "#005778", "#f26a24"],
-        year: "2018"
+        year: "2018",
+        abrv: "MIA"
         
     },
     {
@@ -282,7 +301,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/MIN.png",
         colors: ["#4f2683", "#ffffff", "#ffc62f"],
         colorsUsed: ["#4f2683", "#ffffff", "#ffc62f", "#000000", "#e9bf9b"],
-        year: "2013"
+        year: "2013",
+        abrv: "MIN"
         
     },
     {
@@ -296,7 +316,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/NE.png",
         colors: ["#002244", "#ffffff", "#b0b7bc", "#c60c30"],
         colorsUsed: ["#002244", "#ffffff", "#b0b7bc", "#c60c30"],
-        year: "2000"
+        year: "2000",
+        abrv: "NE"
         
     },
     {
@@ -310,7 +331,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/NO.png",
         colors: ["#d3bc8d", "#ffffff", "#000000"],
         colorsUsed: ["#d3bc8d", "#ffffff", "#000000"],
-        year: "2012"
+        year: "2012",
+        abrv: "NO"
         
     },
     {
@@ -324,7 +346,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/NYG.png",
         colors: ["#0b2265", "#ffffff", "#a71930"],
         colorsUsed: ["#ffffff", "#a71930"],
-        year: "2000"
+        year: "2000",
+        abrv: "NYG"
         
     },
     {
@@ -338,7 +361,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/NYJ.png",
         colors: ["#125740", "#ffffff"],
         colorsUsed: ["#125740", "#ffffff"],
-        year: "2019"
+        year: "2019",
+        abrv: "NYJ"
         
     },
     {
@@ -352,7 +376,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/OAK.png",
         colors: ["#000000", "#a5acaf"],
         colorsUsed: ["#000000", "#ffffff", "#a5acaf"],
-        year: "1964"
+        year: "1964",
+        abrv: "OAK"
         
     },
     {
@@ -366,7 +391,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/PHI.png",
         colors: ["#004c54", "#000000", "#ffffff"],
         colorsUsed: ["#004c54", "#000000", "#a5acaf", "#ffffff"],
-        year: "1996"
+        year: "1996",
+        abrv: "PHI"
         
     },
     {
@@ -380,7 +406,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/PIT.png",
         colors: ["#000000", "#ffb612"],
         colorsUsed: ["#a5acaf", "#000000", "#ffffff", "#ffb612", "#c60c30", "#00539b"],
-        year: "2002"
+        year: "2002",
+        abrv: "PIT"
         
     },
     {
@@ -394,7 +421,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/SF.png",
         colors: ["#aa0000", "#b3995d"],
         colorsUsed: ["#aa0000", "#000000", "#ffffff", "#b3995d"],
-        year: "2009"
+        year: "2009",
+        abrv: "SF"
         
     },
     {
@@ -408,7 +436,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/SEA.png",
         colors: ["#002244", "#a5acaf", "#69be28"],
         colorsUsed: ["#002244", "#a5acaf", "#69be28", "#ffffff"],
-        year: "2012"
+        year: "2012",
+        abrv: "SEA"
         
     },
     {
@@ -422,7 +451,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/TB.png",
         colors: ["#d50a0a", "#34302b", "#000000", "#ff7900"],
         colorsUsed: ["#d50a0a", "#b1babf", "#000000","#ffffff", "#ff7900", "#c2242a"],
-        year: "2014"
+        year: "2014",
+        abrv: "TB"
         
     },
     {
@@ -436,7 +466,8 @@ const logoData = [
         png1000: "logos/NFL/png/1000/TEN.png",
         colors: ["#002a5c", "#bbc4ca", "#4495d1","#ffffff"],
         colorsUsed: ["#002a5c", "#bbc4ca", "#4495d1","#ffffff", "#da2128"],
-        year: "1999"
+        year: "1999",
+        abrv: "TEN"
         
     },
     {
@@ -450,11 +481,15 @@ const logoData = [
         png1000: "logos/NFL/png/1000/WAS.png",
         colors: ["#5a1414", "#ffb612"],
         colorsUsed: ["#5b2b2f", "#ffb612", "#ffffff", "#000000"],
-        year: "1983"
+        year: "1983",
+        abrv: "WAS"
         
     }
     
 ];
+
+
+
 
 
 function tags(tags) {
@@ -470,22 +505,60 @@ ${tags.map(function(showTag) {
 }
 
 function logoTemplate(logo) {
+    
+    function downloadIt(){
+function forceDownload(blob, filename) {
+  var a = document.createElement('a');
+  a.download = filename;
+  a.href = blob;
+  
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+}
+
+
+function downloadResource(url, filename) {
+  if (!filename) filename = url.split('\\').pop().split('/').pop();
+  fetch(url, {
+      headers: new Headers({
+        'Origin': location.origin
+      }),
+      mode: 'cors'
+    })
+    .then(response => response.blob())
+    .then(blob => {
+      let blobUrl = window.URL.createObjectURL(blob);
+      forceDownload(blobUrl, filename);
+    })
+    .catch(e => console.error(e));
+}
+
+
+downloadResource('https://raw.githubusercontent.com/moose1645/SLV/master/${logo.vectorFile}', "test.svg");
+}
+    
+    
+    
     return `
 <div class="p-3" style="display: inline-block;">
 <div class="card" style="width: 18rem;">
 
   <div style="
 background-image: url(${logo.png500}); 
-width: 246px; 
+width: 288px; 
 height: 246px;
 background-repeat: no-repeat;
 background-size: 246px 246px;
+background-position: center;
 " class="card-img-top">
 </div>
 
   <div class="card-body">
 
     <h5 class="card-title">${logo.name}</h5>
+<a type="button" class="btn btn-primary" onclick="downloadIt()">Download SVG</a>
+
 
   </div>
 
@@ -499,9 +572,14 @@ background-size: 246px 246px;
 </div>
 
 `
+    
 }
 
-document.getElementById("library").innerHTML = `<h1>SLV Currently has ${logoData.length} logos</h1>
+
+
+document.getElementById("library").innerHTML = `
+<h1 style="color: red;">Note: SLV is under construction. Don't expect any of this to function correctly, thank you.</h1>
+<h1>SLV Currently has ${logoData.length} logos</h1>
 <div class="container">
 ${logoData.map(logoTemplate).join('')}
 </div>
