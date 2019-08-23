@@ -20,7 +20,7 @@ function navTemplate() {
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <a class="nav-link social" href="https://github.com/moose1645/SLV/"><i class="fab fa-github-alt fa-lg"></i>
+      <a class="nav-link social-btn" href="https://github.com/moose1645/SLV/"><i class="fab fa-github-alt fa-lg"></i>
         </a>
     </ul>
   </div>
