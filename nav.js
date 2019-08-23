@@ -16,7 +16,7 @@ function navTemplate() {
         <a class="nav-link active" href="#" data-toggle="popover" data-title="Dude!" data-placement="bottom" data-content="Why are clicking me? You are already on my page 🤕. Thank you.">Library <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://github.com/moose1645/SLV/issues/new">Report a bug</a>
+        <a class="nav-link" href="https://github.com/moose1645/SLV/issues/new/choose">Report a bug</a>
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
