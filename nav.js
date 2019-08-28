@@ -10,10 +10,10 @@ function navTemplate() {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="/about" data-page="home">Home</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link active" href="#" data-toggle="popover" data-title="Dude!" data-placement="bottom" data-content="Why are clicking me? You are already on my page 🤕. Thank you.">Library <span class="sr-only">(current)</span></a>
+        <a class="nav-link active" href="/library" data-page="library">Library</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://github.com/moose1645/SLV/issues/new/choose">Report a bug</a>
@@ -29,5 +29,6 @@ function navTemplate() {
 
     `
   }
+
 
 document.getElementById("nav").innerHTML = navTemplate()

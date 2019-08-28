@@ -589,8 +589,10 @@ document.getElementById("library").innerHTML = `
 <h1>SLV Currently has ${logoData.length} logos</h1>
 <h5 style="color: red;">Note: SLV is under construction. Don't expect any of this to function correctly, thank you.</h5>
 <h5>To download your logo, right click on the "SVG" button under it and "Save Link As" to download. Click the down arrow for more file options.</h5>
-<div id="myItems" class="text-center">
+<div class="text-center">
+<div id="myItems" class="text-left">
 ${logoData.map(logoTemplate).join('')}
+</div>
 </div>
 </div>
 `
