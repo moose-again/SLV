@@ -3,7 +3,7 @@
     
     return `
     <div class="sidenav px-2 sidebar">
-      <input type="text" id="filterBar disabledInput" class="form-control" onkeyup="myFunction()" placeholder="Search is inactive.." disabled>
+      <input type="text" id="filterBar disabledInput" class="form-control" onkeyup="myFunction()" placeholder="Search is inactive.. Try Ctrl+F" disabled>
       <div class="mt-3">
         <a href="#" class="active notice" data-toggle="popover" data-title="Dude!" data-placement="left" data-content="Why are clicking me? You are already on my page 🤕. Thank you."><i class="fas fa-bezier-curve"></i> All Logos</a>
         <a class="nav-link disabled" href="#"><i class="fas fa-baseball-ball"></i> Baseball <span class="badge badge-warning">Inactive</span></a>

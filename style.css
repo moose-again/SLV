@@ -171,3 +171,10 @@ a.nav-link.social-btn {
 .bs-popover-right {
 	left: 200px !important;
 }
+
+.stars {
+  border: 20px solid orange;
+  border-image-source: url(static/img/stars.gif);
+  border-image-slice: 20 20;
+  border-image-repeat: round;
+}

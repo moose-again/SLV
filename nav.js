@@ -12,8 +12,8 @@ function navTemplate() {
       <li class="nav-item">
         <a class="nav-link" href="/about" data-page="home">Home</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link active" href="/library" data-page="library">Library</a>
+      <li class="nav-item">
+        <a class="nav-link" href="/library" data-page="library">Library</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://github.com/moose1645/SLV/issues/new/choose">Report a bug</a>
