@@ -542,7 +542,7 @@ function logoTemplate(logo) {
     
     
     return `
-<div class="card" style="width: 18rem; display: inline-block; margin: 3px;">
+<div class="card" style="width: 18rem; display: flex; margin: 3px; flex-direction: column;">
 
   <div style="
 background-image: url(${logo.png500}); 
@@ -589,10 +589,8 @@ document.getElementById("library").innerHTML = `
 <h1>SLV Currently has ${logoData.length} logos</h1>
 <h5 style="color: red;">Note: SLV is under construction. Don't expect any of this to function correctly, thank you.</h5>
 <h5>To download your logo, right click on the "SVG" button under it and "Save Link As" to download. Click the down arrow for more file options.</h5>
-<div class="text-center">
-<div id="myItems" class="text-left">
+<div id="myItems" style="display: flex; flex-wrap: wrap;">
 ${logoData.map(logoTemplate).join('')}
-</div>
 </div>
 </div>
 `
