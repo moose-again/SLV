@@ -542,14 +542,14 @@ function logoTemplate(logo) {
     
     
     return `
-<div class="card" style="width: 18rem; display: flex; margin: 3px; flex-direction: column;">
+<div class="card" style="width: 250px; display: flex; margin: 3px; flex-direction: column;">
 
   <div style="
 background-image: url(${logo.png500}); 
-width: 288px; 
+width: 250px; 
 height: 246px;
 background-repeat: no-repeat;
-background-size: 246px 246px;
+background-size: 250px 250px;
 background-position: center;
 " class="card-img-top">
 </div>
